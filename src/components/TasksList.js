@@ -3,6 +3,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteTask } from '../actions/taskActions';
 import { AiFillDelete } from "react-icons/ai";
+import { toggleTask } from '../actions/taskActions';
 
 const TaskList = () => {
   const tasks = useSelector((state) => state.tasks.tasks);
