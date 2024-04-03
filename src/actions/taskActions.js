@@ -1,4 +1,4 @@
-// src/actions/taskActions.js
+
 import { ADD_TASK, DELETE_TASK, TOGGLE_TASK } from './type';
 
 export const addTask = (task) => ({

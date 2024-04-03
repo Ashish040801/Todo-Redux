@@ -1,4 +1,4 @@
-// src/components/TaskList.js
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteTask } from '../actions/taskActions';
@@ -13,7 +13,7 @@ const TaskList = () => {
   };
 
   const handleToggle = (id) => {
-    // Handle task completion toggle logic
+    dispatch(toggleTask(id));
   };
 
   return (
